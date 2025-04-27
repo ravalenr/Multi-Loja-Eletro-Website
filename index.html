@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A Multi-Loja Eletro oferece os melhores produtos de Eletro e Eletrônicos com qualidade e preço justo.">
+        <title>Multi-Loja Eletro</title>
+        <link rel="stylesheet" href="css/style.css">
+      </head>      
+      <a href="https://api.whatsapp.com/send?phone=5511991215175&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos!" 
+      class="whatsapp-float" 
+      target="_blank" 
+      title="Fale conosco pelo WhatsApp">
+     <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="50">
+   </a>
+   <script src="js/script.js"></script>
+<body>
+
+  <header>
+    <div class="logo">
+        <img src="img/logotipo.png" alt="Multi-Loja Eletro" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section id="home" class="hero">
+  <h1>Bem-vindo à Multi-Loja Eletro</h1>
+  <p>Os melhores produtos de Eletro e Eletrônicos com qualidade e preço justo.</p>
+</section>
+
+<section id="sobre" class="section">
+  <h2>Sobre Nós</h2>
+  <p><strong>Missão:</strong> Comercializar produtos de qualidade, com preço justo, superando as expectativas dos clientes com um atendimento especializado e personalizado.</p>
+  <p><strong>Visão:</strong> Ser reconhecida como a melhor loja de Eletro e Eletrônico, conquistando o mercado como referência em confiança, qualidade e excelência.</p>
+</section>
+
+<section id="produtos" class="section">
+  <h2>Produtos</h2>
+  <div class="produtos">
+    <div class="produto">Televisores</div>
+    <div class="produto">Geladeiras</div>
+    <div class="produto">Informática</div>
+    <div class="produto">Smartphones</div>
+    <div class="produto">Micro-ondas</div>
+    <div class="produto">Fotografia</div>
+  </div>
+</section>
+
+<section id="contato" class="section">
+  <h2>Contato</h2>
+  <p><strong>E-mail:</strong> <a href="mailto:multilojaeletro@gmail.com">multilojaeletro@gmail.com</a></p>
+  <p><strong>WhatsApp:</strong> <img src="img/whatsapp.png" alt="WhatsApp" width="20"> (11) 99121-5175</p>
+  <p><strong>Endereço:</strong> São Paulo - SP</p>
+</section>
+
+<footer>
+  &copy; 2025 Multi-Loja Eletro - Todos os direitos reservados
+</footer>
+
+<script>
+// Pequeno script para rolagem suave ao clicar nos links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
